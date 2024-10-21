@@ -1,0 +1,37 @@
+/* Footer Styles */
+.footer-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 3rem;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #4b5563; /* Grey border (Tailwind grey-700) */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 1rem; /* Space between icons */
+    margin-top: 1rem;
+  }
+  
+  .footer-links a {
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #fdba74; /* Tailwind orange-200 */
+  }
+  
